@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Ligatt Pharmacy</title>
+    <link rel="icon" href="images/logo-tab.PNG" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">
+          <img src="images/logo.png" alt="Ligatt Pharmacy Logo" />
+          <h1>Ligatt Pharmacy</h1>
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="nav-link" aria-current="page">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Intro -->
+    <section class="page-hero">
+      <div class="container">
+        <h2>About Ligatt Pharmacy</h2>
+        <p>
+          Committed to safe, accessible, and patient-centered pharmaceutical
+          care.
+        </p>
+      </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="about-full">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h3>Who We Are</h3>
+          <p>
+            Ligatt Pharmacy is a community-focused pharmacy dedicated to
+            improving health outcomes through professional pharmaceutical
+            services and responsible medication management.
+          </p>
+
+          <p>
+            We serve individuals and families by providing authentic medicines,
+            health monitoring services, and expert counselling delivered by
+            licensed pharmacists in a welcoming and confidential environment.
+          </p>
+        </div>
+
+        <div class="about-image">
+          <img style="margin-top: 1rem;" src="images/about-liggat.jpg" alt="Ligatt Pharmacy Interior"  />
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="mission-vision">
+      <div class="container mission-grid">
+        <div class="mission-card">
+          <h4>Our Mission</h4>
+          <p>
+            To provide accessible, safe, and patient-centered pharmaceutical
+            care that improves the well-being of our community.
+          </p>
+        </div>
+
+        <div class="mission-card">
+          <h4>Our Vision</h4>
+          <p>
+            To be a trusted community pharmacy recognized for professionalism,
+            quality healthcare services, and patient satisfaction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="what-we-do">
+      <div class="container">
+        <h3>What We Do</h3>
+
+        <ul class="about-points">
+          <li>✔ Accurate prescription dispensing</li>
+          <li>✔ Blood pressure and glucose monitoring</li>
+          <li>✔ BMI, height, and weight checks</li>
+          <li>✔ Patient education and counselling</li>
+          <li>✔ Supply of medical equipment and healthcare essentials</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Professional Assurance -->
+    <section class="assurance">
+      <div class="container">
+        <h3>Professional Assurance</h3>
+        <p>
+          Ligatt Pharmacy operates in compliance with regulatory standards and
+          professional ethics. Our services are supervised by licensed
+          pharmacists committed to patient safety, confidentiality, and quality
+          care.
+        </p>
+
+        <p>
+          <strong>Pharmacist-in-Charge:</strong> Pharm. (pharmacist name), RPh
+          <br />
+          <strong>License No:</strong> PCN/00000
+        </p>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="about-cta">
+      <div class="container">
+        <h3>Your Health Matters</h3>
+        <p>
+          Visit our pharmacy or contact us today for professional pharmaceutical
+          care you can trust. Your well-being is our responsibility
+        </p>
+        <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Ligatt Pharmacy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

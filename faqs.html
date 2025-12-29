@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQs | GreenLife Pharmacy</title>
+    <link rel="icon" href="images/logo-tab.PNG" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <!-- Brand -->
+        <div class="brand">
+          <img src="images/logo.png" alt="Ligatt Pharmacy Logo" />
+          <h1>Ligatt Pharmacy</h1>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faqs.html" class="nav-link" aria-current="page">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== Page Header ===== -->
+    <div>
+      <section class="page-hero">
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about our pharmacy services</p>
+      </section>
+    </div>
+
+    <!-- ===== FAQ MAIN CONTAINER ===== -->
+    <main class="faq-main">
+      <!-- FAQ ITEM 1 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          Do I need a prescription to buy medicines?
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes. Some medications require a valid prescription from a licensed
+          doctor, while over-the-counter drugs can be purchased without one.
+        </div>
+      </div>
+
+      <!-- FAQ ITEM 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          Do you offer home delivery?
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes, we offer home delivery within selected locations. Orders can be
+          arranged through WhatsApp or phone call.
+        </div>
+      </div>
+
+      <!-- FAQ ITEM 3 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          Can I place an order via WhatsApp?
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Absolutely. You can send your prescription or medication request to
+          our WhatsApp number and receive quick assistance.
+        </div>
+      </div>
+
+      <!-- FAQ ITEM 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          What are your opening hours?
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          We are open Monday to Saturday from 8:00 AM to 8:00 PM. Sunday hours
+          may vary.
+        </div>
+      </div>
+
+      <!-- FAQ ITEM 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          Can I consult a pharmacist?
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes. Our licensed pharmacist is available during business hours to
+          provide professional guidance and consultations.
+        </div>
+      </div>
+    </main>
+
+    <!-- Call to Action -->
+    <section class="about-cta">
+      <div class="container">
+        <h3>Your Health Matters</h3>
+        <p>
+          Visit our pharmacy or contact us today for professional pharmaceutical
+          care you can trust. Your well-being is our responsibility
+        </p>
+        <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Ligatt Pharmacy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

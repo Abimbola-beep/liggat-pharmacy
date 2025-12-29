@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Liggat Pharmacy</title>
+    <link rel="icon" href="images/logo-tab.PNG" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="container nav">
+        <!-- Brand -->
+        <div class="brand">
+          <img src="images/logo.png" alt="Liggat Pharmacy Logo" />
+          <h1>Liggat Pharmacy</h1>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html" class="nav-link" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== Page Header ===== -->
+    <section class="page-hero">
+      <h2>Contact Us</h2>
+      <p>
+        We are here to assist with all your health and pharmaceutical needs.
+      </p>
+    </section>
+
+    <!-- ===== Contact Info Section ===== -->
+    <section class="contact-info container">
+      <div class="contact-grid">
+        <!-- Address -->
+        <div class="contact-card">
+          <h4>Address</h4>
+          <p>📍 Abuja Road, Ire-Akari Estate, Soka, Ibadan</p>
+          <a href="https://maps.google.com" target="_blank" class="btn"
+            >View on Google Maps</a
+          >
+        </div>
+
+        <!-- Phone & WhatsApp -->
+        <div class="contact-card">
+          <h4>Phone & Email</h4>
+          <p>Call 📞: +234 809 679 8555</p>
+          <p>📧 ligattpharmacy@aol.com</p>
+        </div>
+
+        <!-- Operating Hours -->
+        <div class="contact-card">
+          <h4>Operating Hours</h4>
+          <p>Mon - Fri: 8:00 AM - 7:00 PM</p>
+          <p>Sat: 9:00 AM - 7:00 PM</p>
+          <p>Sun: Closed</p>
+        </div>
+
+        <!-- Pharmacist-in-Charge -->
+        <div class="contact-card">
+          <h4>Pharmacist-in-Charge</h4>
+          <p>Pharm. (pharmacist name), License PCN/00000 (Optional)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Google Map ===== -->
+    <section class="contact-map container">
+      <h3>Our Location</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!4v1766999155558!6m8!1m7!1sg7mE7ehVjWQ1qJefhc7JbA!2m2!1d7.320766896295134!2d3.88723210503235!3f111.94799324309129!4f-1.8095439155592175!5f0.7820865974627469"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- ===== Contact Form Section ===== -->
+    <section class="contact-form-section container">
+      <h3>Send Us a Message</h3>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Your Name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Your Phone" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Ligatt Pharmacy. All rights reserved.</p>
+    </footer>
+
+    <script src="faqs.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
