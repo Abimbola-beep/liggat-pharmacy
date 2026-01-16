@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic Meta -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Liggat Pharmacy</title>
-    <link rel="icon" href="images/logo-tab.PNG" type="image/png">
+
+    <!-- SEO Title -->
+    <title>Contact | Ligatt Pharmacy</title>
+
+    <!-- Description -->
+    <meta
+      name="description"
+      content="Get in touch with Ligatt Pharmacy for enquiries, customer support, prescriptions, and healthcare information."
+    />
+
+    <!-- Optional Keywords -->
+    <meta
+      name="keywords"
+      content="contact Ligatt Pharmacy, pharmacy contact, pharmacy support, enquiries, customer care"
+    />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact | Ligatt Pharmacy" />
+    <meta
+      property="og:description"
+      content="Reach out to us for questions about medications, services, and support."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Website Assets -->
+    <link rel="icon" href="images/logo-tab.PNG" type="image/png" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <!-- ===== Header ===== -->
     <header class="header">
@@ -14,7 +43,7 @@
         <!-- Brand -->
         <div class="brand">
           <img src="images/logo.png" alt="Liggat Pharmacy Logo" />
-          <h1>Liggat Pharmacy</h1>
+          <h1>Ligatt Pharmacy</h1>
         </div>
 
         <!-- Hamburger -->
@@ -31,7 +60,11 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="faqs.html">FAQs</a></li>
-            <li><a href="contact.html" class="nav-link" aria-current="page">Contact</a></li>
+            <li>
+              <a href="contact.html" class="nav-link" aria-current="page"
+                >Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -48,35 +81,41 @@
     <!-- ===== Contact Info Section ===== -->
     <section class="contact-info container">
       <div class="contact-grid">
-        <!-- Address -->
-        <div class="contact-card">
-          <h4>Address</h4>
-          <p>📍 Abuja Road, Ire-Akari Estate, Soka, Ibadan</p>
-          <a href="https://maps.google.com" target="_blank" class="btn"
-            >View on Google Maps</a
-          >
-        </div>
-
         <!-- Phone & WhatsApp -->
         <div class="contact-card">
           <h4>Phone & Email</h4>
-          <p>Call 📞: +234 809 679 8555</p>
+          <p>Call 📞: +234 904 358 8940</p>
           <p>📧 ligattpharmacy@aol.com</p>
         </div>
 
         <!-- Operating Hours -->
         <div class="contact-card">
           <h4>Operating Hours</h4>
-          <p>Mon - Fri: 8:00 AM - 7:00 PM</p>
-          <p>Sat: 9:00 AM - 7:00 PM</p>
+          <p>Mon–Sat: 9:00 AM – 7:00 PM</p>
           <p>Sun: Closed</p>
+          <p>We also operate on appointment basis</p>
         </div>
 
         <!-- Pharmacist-in-Charge -->
         <div class="contact-card">
           <h4>Pharmacist-in-Charge</h4>
-          <p>Pharm. (pharmacist name), License PCN/00000 (Optional)</p>
+          <p>Pharm. Awe, Apaubia Cecilia</p>
         </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h4>Address</h4>
+      <p>📍 Abuja Road, Ire-Akari Estate, Soka, Ibadan</p>
+      <img
+        style="margin-top: 2rem; width: 500px; height: auto"
+        src="images/entrance.jpeg"
+        alt="Ligatt Pharmacy staffs"
+      />
+      <div>
+        <a href="https://maps.google.com" target="_blank" class="btn"
+          >View on Google Maps</a
+        >
       </div>
     </section>
 
@@ -132,7 +171,7 @@
       <p>© <span id="year"></span> Ligatt Pharmacy. All rights reserved.</p>
     </footer>
 
-    <script src="faqs.js"></script>
+    <script src="js/script.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
